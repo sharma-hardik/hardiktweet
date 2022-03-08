@@ -10,8 +10,10 @@ gem 'jbuilder',   '2.10.0'
 #gem 'bootsnap',   '1.7.2', require: false
 gem 'bulma-rails', '~> 0.9.3'
 gem 'simple_form', '~> 5.1'
+gem 'wdm', '>= 0.1.0'
 gem 'gravatar_image_tag', '~> 1.2'
 gem 'devise', '~> 4.8', '>= 4.8.1'
+gem 'binding_of_caller', '~> 1.0'
 group :development, :test do
   gem 'sqlite3', '1.4.2'
   gem 'byebug',  '11.1.3', platforms: [:mri, :mingw, :x64_mingw]
