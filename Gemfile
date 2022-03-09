@@ -25,12 +25,15 @@ gem 'bulma-rails', '~> 0.9.3'
 gem 'simple_form', '~> 5.1'
 gem 'gravatar_image_tag', '~> 1.2'
 gem 'devise', '~> 4.8', '>= 4.8.1'
+gem 'net-smtp'
+gem 'net-pop'
+gem 'net-imap'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
 # Reduces boot times through caching; required in config/boot.rb
-#gem 'bootsnap', '>= 1.4.4', require: false
+gem 'bootsnap', '>= 1.4.4', require: false
 
 group :development, :test do
   gem "sqlite3", "1.4.2"
@@ -61,4 +64,4 @@ group :production do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data'#, platforms: [:mingw, :mswin, :x64_mingw, :jruby]
